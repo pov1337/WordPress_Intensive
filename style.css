@@ -1,0 +1,221 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", serif;
+}
+.container{
+    width: 1114px;
+    margin: 0 auto;
+    padding: 40px 0 61px 0;
+    position: relative;
+}
+.form{
+    height: 802px;
+    background: url("img/CompositeLayer.png") center center/cover no-repeat;
+}
+.logo_img{
+    display: block;
+    margin: 0 auto;
+}
+.logo_text{
+    padding-top: 14px;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.promo_title{
+    text-align: center;
+}
+
+h1{
+    color: white;
+    text-transform: uppercase;
+    font-size: 80px;
+}
+.title{
+    padding-top: 53px;
+}
+h2 {
+    color: #F9BF3B;
+    text-transform: uppercase;
+    font-size: 41px;
+}
+.promo_title > p{
+    padding-top: 23px;
+    font-size: 21px;
+    color: white;
+}
+.promo_title > p > span{
+    font-weight: 700;
+    color: #F9BF3B;
+}
+.promo_btn{
+    display: block;
+    margin: 0 auto;
+    margin-top: 73px;
+    background-color: dodgerblue;
+    width: 313px;
+    height: 72px;
+    cursor: pointer;
+    border-color: rgba(0, 0, 0, 0.23);
+    border-width: 4px;
+    border-style: solid;
+    font-size: 21px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.promo_more{
+    margin-top: 73px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.promo_more_img{
+    display: block;
+    margin: 0 auto;
+    margin-top: 11px;
+}
+
+/*конец промо*/
+
+.about_heading > h2{
+    font-weight: 500;
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.yellow_block{
+    margin: 16px auto;
+    width: 220px;
+    height: 4px;
+    background: rgba(249, 191, 59, 1)
+}
+.about_heading > p{
+    text-align: center;
+    font-size: 23px;
+}
+.about_wrap{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 45px;
+}
+.about_item{
+    width: 342px;
+}
+/*конец абоут*/
+
+.gypsy_woman{
+    top: -12.3%;
+    position: absolute;
+    left: -249px;
+    z-index: -1;
+}
+.optimize_text{
+    max-width: 750px;
+    margin-left: auto;
+}
+.optimize_head{
+    display: block;
+    color: #299CBD;
+    font-size: 29px;
+}
+.optimize_info{
+    font-size: 17px;
+}
+.optimize_info > span{
+    font-weight: 700;
+}
+
+/*конец оптимизации*/
+
+.achieve_block{
+    background: url("img/CompositeLayer2.png") center center/cover no-repeat;
+}
+.achieve-head{
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: 500;
+    font-size: 30px;
+}
+.achieve_wrap{
+    display: flex;
+    justify-content: space-between;
+}
+.achieve_item{
+    margin-top: 23px;
+    max-width: 196px;
+}
+.achieve_img{
+    display: block;
+    margin: 0 auto;
+}
+.achieve_text{
+    color: #FFFFFF;
+    text-align: center;
+}
+
+/*конец ачивок*/
+
+.gift_block{
+    background: rgba(239, 239, 239, 1)
+}
+.gift_img{
+    display: block;
+    margin: 0 auto;
+}
+.gift_text{
+    margin-top: 45px;
+    text-align: center;
+    margin-bottom: 52px;
+    font-size: 30px;
+}
+
+/*конец подарка*/
+
+.veb_img{
+    display: block;
+    margin: 0 auto;
+}
+.veb_item > h2{
+    padding-top: 37px;
+    color: black;
+    text-align: center;
+    font-size: 30px;
+}
+.veb_text{
+    padding-top: 15px;
+    color: #299CBD;
+    text-align: center;
+    font-weight: 700;
+    font-size: 16px;
+}
+.veb_item > p{
+    text-align: center;
+    padding-top: 14px;
+    font-weight: 500;
+    font-size: 23px;
+}
+
+/*конец веба*/
+
+footer{
+    background: rgba(26, 26, 26, 1);
+    color: #888888;
+    text-align: center;
+}
+.feedback > a {
+    color: #888888;
+    text-decoration: underline;
+}
+.feedback > a:first-child{
+    padding-right: 5px;
+    border-right: #888888 1px solid;
+}
+.call_f > a {
+    text-decoration: none;
+    color: #888888;
+}
