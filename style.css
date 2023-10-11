@@ -109,6 +109,8 @@ h2 {
 /*конец абоут*/
 
 .gypsy_woman{
+    width: 868px;
+    height: 502px;
     top: -12.3%;
     position: absolute;
     left: -249px;
@@ -117,14 +119,17 @@ h2 {
 .optimize_text{
     max-width: 750px;
     margin-left: auto;
+
 }
 .optimize_head{
     display: block;
     color: #299CBD;
     font-size: 29px;
+
 }
 .optimize_info{
     font-size: 17px;
+
 }
 .optimize_info > span{
     font-weight: 700;
