@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: "Segoe UI", serif;
+    font-family: 'Roboto', sans-serif;
 }
 .container{
     width: 1114px;
@@ -169,7 +169,8 @@ h2 {
 /*конец ачивок*/
 
 .gift_block{
-    background: rgba(239, 239, 239, 1)
+    background: rgba(239, 239, 239, 1);
+    min-width: 1114px;
 }
 .gift_img{
     display: block;
