@@ -4,6 +4,9 @@
     padding: 0;
     font-family: 'Roboto', sans-serif;
 }
+html {
+    scroll-behavior: smooth;
+}
 .container{
     width: 1114px;
     margin: 0 auto;
@@ -16,11 +19,13 @@
     background: url("img/CompositeLayer.png") center center/cover no-repeat;
 }
 .logo_img{
+
     display: block;
     margin: 0 auto;
 }
 .logo_text{
-    padding-top: 14px;
+    padding-top: 18px;
+    font-size: 19px;
     font-weight: 600;
     font-style: normal;
     text-align: center;
@@ -38,6 +43,22 @@ h1{
 }
 .title{
     padding-top: 53px;
+}
+.block_strip{
+    display: inline-block;
+}
+.block_strip > span{
+    display: block;
+    width: 280px;
+    height: 2px;
+    background-color: #FFFFFF;
+}
+.block_strip > span:nth-child(1){
+    transform: translate(-285px, 50px);
+
+}
+.block_strip > span:nth-child(3){
+    transform: translate(520px, -47px);
 }
 h2 {
     color: #F9BF3B;
@@ -61,7 +82,8 @@ h2 {
     width: 313px;
     height: 72px;
     cursor: pointer;
-    border-color: rgb(5, 143, 250);
+    border-color: #3c90e1;
+    border-radius: 3px;
     border-width: 4px;
     border-style: solid;
     font-size: 21px;
@@ -70,14 +92,20 @@ h2 {
     color: #FFFFFF;
 }
 .promo_more{
-    margin-top: 73px;
+    margin-top: 43px;
     text-align: center;
+    font-size: 18px;
     color: #FFFFFF;
 }
-.promo_more_img{
+.shweps_arrow{
+    padding-top: 15px;
     display: block;
     margin: 0 auto;
     margin-top: 11px;
+}
+.shweps_arrow > a > img{
+    width: 40px;
+    height: 25px;
 }
 
 /*конец промо*/
@@ -120,13 +148,11 @@ h2 {
 .optimize_text{
     max-width: 750px;
     margin-left: auto;
-
 }
 .optimize_head{
     display: block;
     color: #299CBD;
     font-size: 29px;
-
 }
 .optimize_info{
     padding-top: 15px;
@@ -195,8 +221,6 @@ h2 {
     text-align: center;
     font-size: 30px;
 }
-.veb_text{
-}
 .veb_item > p{
     display: block;
     padding-top: 15px;
@@ -235,6 +259,7 @@ footer{
 
 @media (max-width: 767px){
     .container{
+        min-width:100%;
         padding-top: 20px;
     }
     .form{
@@ -242,8 +267,7 @@ footer{
     }
     .logo_img{
         width: 160px;
-        height: 150px;
-        
+        height: 140px;
     }
     .logo_text{
         padding-top: 15px;
@@ -252,12 +276,20 @@ footer{
     .title{
         font-size: 55px;
     }
+    .block_strip > span{
+        width: 229px;
+    }
+    .block_strip > span:nth-child(1){
+        transform: translate(-230px, 86px);
+    }
+    .block_strip > span:nth-child(3){
+        transform: translate(645px, -86px);
+    }
     .heading{
-        padding-top: 15px;
+        padding: 25px 0 25px 0;
         font-size: 100px;
     }
     .subtitle{
-        padding-top: 15px;
         font-size: 50px;
     }
     .promo_title > p{
@@ -266,22 +298,20 @@ footer{
         line-height: 70px;
     }
     .promo_btn{
-        width: 413px;
+        width: 544px;
+        border-radius: 7px;
         height: 172px;
         font-size: 35px;
     }
     .promo_more{
         font-size: 45px;
     }
-    .promo_more_img{
-        margin-top: 30px;
-        width: 60px;
-        height: 40px;
+    .shweps_arrow{
+        margin-top: 15px;
     }
-
-
-
-
-
-
+    .shweps_arrow > a > img{
+        margin-top:25px;
+        width: 70px;
+        height: 50px;
+    }
 }
